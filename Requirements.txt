@@ -1,0 +1,42 @@
+# Traitement vidéo et audio
+moviepy>=1.0.3
+imageio
+imageio-ffmpeg
+
+# Synthèse vocale et sous-titres
+edge-tts
+azure-cognitiveservices-speech
+faster-whisper
+
+# Manipulation d'images
+Pillow
+
+# API Google Gemini
+google-generativeai
+
+# Téléchargement et requêtes HTTP
+requests
+
+# Logging avancé
+loguru
+
+# Utilitaires
+tqdm
+
+# (Optionnel, si utilisé pour l'interface ou le prototypage)
+# streamlit
+
+# Pour la gestion des chemins et typage (inclus dans Python >=3.8)
+# pathlib
+# typing
+
+# Pour la configuration et le parsing JSON (inclus dans Python)
+# json
+
+# Pour la gestion des dates et heures (inclus dans Python)
+# datetime
+
+
+Installe aussi ImageMagick sur ta machine (hors pip) et configure bien le chemin dans le code.
+Si tu utilises d'autres modules spécifiques (ex : openai, streamlit, etc.), ajoute-les selon tes besoins.
+Si tu utilises des polices personnalisées pour les sous-titres, assure-toi qu'elles sont installées sur le système
